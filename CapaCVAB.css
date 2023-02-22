@@ -277,4 +277,10 @@ table th {
     background-color: rgb(195, 214, 100);
  }
 
+ #nivelgithub th:nth-child(-n + 2) {
+    background-color: rgb(195, 214, 100);
+ }
+
+ 
+
  
