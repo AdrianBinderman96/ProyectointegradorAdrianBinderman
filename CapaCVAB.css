@@ -1,0 +1,280 @@
+/* Celular   576px en adelante */
+@media (min-width: 576px) {
+    
+
+}
+
+
+@media (max-width: 768px) {
+    figure img {
+        border-radius: 50%;
+        border: 2px solid  #628359;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        max-width: 50%;
+        box-shadow: 2px 2px 5px #999;
+        
+    }
+
+    aside {
+        float: left;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        background-color:  #628359;
+        color: white;
+    }
+
+}
+
+
+
+/* Tablet 768px en adelante)*/
+@media (min-width: 768px) {
+    figure img {
+        border-radius: 50%;
+        border: 5px solid  #628359;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        max-width: 25%;
+        box-shadow: 2px 2px 5px #999;
+        
+    }
+
+    aside {
+        float: left;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+        background-color:  #628359;
+        color: white;
+    }
+
+}
+
+/* Notebook PC 992px and EN adelante)*/
+@media (min-width: 992px) {}
+
+/* X-Large devices (Monitores grande de 1200px en adelante )*/
+@media (min-width: 1200px) {}
+
+/* XX-Large devices (Monitores estra grandes de  1400px en adelante)*/
+@media (min-width: 1400px) {}
+
+
+
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1546484396-fb3fc6f95f98?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+}
+
+* {
+    font-family: 'Playfair Display', serif;
+}
+
+.container-lg {
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    height: auto;
+}
+
+/* sector parte superior del CV */
+
+figure {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+header h2 {
+font-size: 15px ;
+text-align: center;
+}
+
+
+.perfilprofesional{
+margin-top: 5%;
+text-align: center;
+border-top: 1px solid gray ;
+border-bottom: 1px solid gray ;
+font-size: 15px;
+margin-bottom: 20px;
+}
+
+.perfilprofesional h2 {
+    margin-top: 2%;
+    font-size: 20px;
+}
+
+.contenedordebotones {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+}
+
+
+.contenedordebotones button{
+    background-color: #628359;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #999;
+}
+
+#experiencialaboralbotonid{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+.ExperienciaLaboral{
+    margin-top: 3%;
+}
+
+.ExperienciaLaboral h1 {
+    font-size: medium;
+    text-align: center;
+}
+
+.ExperienciaLaboral h2 {
+    font-size: small;
+    text-align: left; 
+
+}
+.ExperienciaLaboral p {
+    font-size: medium;
+}
+
+
+
+.FormacionAcademica{
+    margin-top: 3%;
+}
+
+.FormacionAcademica h1 {
+    font-size: medium;
+    text-align: center;
+}
+
+.FormacionAcademica h2 {
+    font-size: small;
+    text-align: left; 
+
+}
+.FormacionAcademica p {
+    font-size: medium;
+}
+
+.acercademi {
+    margin-top: 3%;
+}
+
+.acercademi h1 {
+    font-size: medium;
+    text-align: center;
+}
+
+.acercademi h2 {
+    font-size: small;
+    text-align: left; 
+
+}
+.acercademi p {
+    font-size: medium;
+    text-align: center;
+}
+
+
+
+
+
+/*Contenedor aside*/
+
+
+
+
+.contenedordatospersonales{ 
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom:50px;
+    margin-top: 50px;
+    
+
+ }
+ .contenedordatoshabilidades {
+    margin-left: 2%;
+    margin-right: 2%;
+ }
+
+i {
+    font-size: small;
+    font-family: 'Cambria', serif ;
+}
+
+
+aside h2 {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Cambria', serif ;
+}
+
+.phabilidades {
+    font-size: 12px;
+    font-style: italic;
+    font-family: 'Cambria', serif ;
+    text-align: left;
+}
+
+.datospersonales {
+    font-size: 12px ;
+    text-align: left;
+    margin-left: 10%; 
+    font-style: italic;
+}
+
+table {
+    width: 80%;
+    border:1.5px solid rgb(72, 59, 20);
+}
+
+table th {
+    width: 10%;
+    float: left;
+    border: 0.2px;
+    height: 15px;
+ }
+
+
+#nivelatencionalcliente th:nth-child(-n + 10) {
+    background-color: rgb(195, 214, 100);
+ }
+ #nivelmicrosoftoffice th:nth-child(-n + 8) {
+    background-color: rgb(195, 214, 100);
+ }
+ #niveljavascript th:nth-child(-n + 3) {
+    background-color: rgb(195, 214, 100);
+ }
+ #nivelhtml th:nth-child(-n + 3) {
+    background-color: rgb(195, 214, 100);
+ }
+ #nivelcss th:nth-child(-n + 3) {
+    background-color: rgb(195, 214, 100);
+ }
+ #nivelrubyid th:nth-child(-n + 2) {
+    background-color: rgb(195, 214, 100);
+ }
+
+ 
